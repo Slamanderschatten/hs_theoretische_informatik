@@ -27,7 +27,7 @@ int main() {
         string line;
         int lineNumber = 0;
 
-        regex format_regex(R"(^\s*\w+\s+\S+\s+->\s+\w+\s+\S+\s+[LRN](\s+//.*)?\s*$)");
+        regex format_regex(R"(^\s*\w+(?:\s+\S+)+\s+->\s*\w+(?:\s+\S+)+\s+(?:[LRN]\s*)+(?:\s+//.*)?$)");
 
         bool error = false;
         getline(file, line);
