@@ -31,18 +31,18 @@ int main() {
 
         bool error = false;
         getline(file, line);
-        if(!line.empty())
+        if(line.find("//") != 0)
+            error = true;
+        line.erase(0,2);
+        int numberOfInputs = stoi(line);
+        getline(file, line);
+        if(line != "start s")
             error = true;
         getline(file, line);
-        if(line != "start x       // Definition des Startzustands x")
-            error = true;
-        getline(file, line);
-        if(line != "end e         // Definition des Endzustands e")
+        if(line != "end e")
             error = true;
         if(error) {
-            cout << "begin of file have to be : \n"
-                    "start x       // Definition des Startzustands x\n"
-                    "end e         // Definition des Endzustands e" << endl << endl;
+            cout << "begin of file have to be : \n//[NUMBER OF_INPUTS]\nstart s\nend e" << endl << endl;
             continue;
         }
 
@@ -66,13 +66,9 @@ int main() {
 
         string command = "java -jar tm.jar " + filename + " ";
         cout << "enter tm input" << endl;
-        while(true) {
+        for(int i = 0; i < numberOfInputs; i++) {
             string in;
             cin >> in;
-            if(in.back() == ';') {
-                in.erase(std::remove(in.begin(), in.end(), ';'), in.end());
-                break;
-            }
             command.append(in + " ");
         }
         command.append("-step");

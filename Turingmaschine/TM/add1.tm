@@ -1,10 +1,10 @@
+//1
+start s
+end e
 
-start x       // Definition des Startzustands x
-end e         // Definition des Endzustands e
-
-x 0 -> x 0 R  // Solange im Zustand x, laufe ans rechte Eingabeende
-x 1 -> x 1 R
-x _ -> y _ L  // Am rechten Ende angekommen, gehe in Zustand y über
+s 0 -> s 0 R  // Solange im Zustand x, laufe ans rechte Eingabeende
+s 1 -> s 1 R
+s _ -> y _ L  // Am rechten Ende angekommen, gehe in Zustand y über
         
 y 0 -> z 1 L  // y steht für: Übertrag 1 aufaddieren und nach links laufen
 y 1 -> y 0 L  
