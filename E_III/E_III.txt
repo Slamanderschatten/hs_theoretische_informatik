@@ -1,0 +1,17 @@
+Aufgabe 1:
+
+l und r sind berechenbar da es für jedes z nur ein Tupel (x,y) und dadurch auch nur ein x und ein y gibt.
+
+Aufgabe 2:
+
+die funktionenreihe fi muss stetig steigen damit die geltenden bedingungen erfüllt werden können.
+die reihe die hir beschrieben ist ist die Fibunacci reihe
+
+
+Aufgabe 3:
+
+Ne weil nix da steht das U eingrenzt
+
+
+Aufgabe 4:
+

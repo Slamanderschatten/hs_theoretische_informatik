@@ -3,7 +3,7 @@ Aufgabe 2:
 
 a) Dg = N; Wg = {z ist eine Zahl wenn man wei angängt}
 b) ja, es gibt für jede eingabe werte kombination eine ausgabe
-c) nein es kommt be (1,0) das gleiche raus wie bei (0,1)
+c) ja
 
 
 Aufgabe 3:
