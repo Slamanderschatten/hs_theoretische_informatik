@@ -15,3 +15,9 @@ Ne weil nix da steht das U eingrenzt
 
 Aufgabe 4:
 
+Solange 1 {
+    wenn wurzel(y) keine nachkommastellen hat gebe das ergebnis aus.
+}
+
+Aufgabe 5:
+Prüfe ob x eine primzahl ist, wenn ja prüfe ob x+1 eine primzahl ist, wenn ja gebe x aus
