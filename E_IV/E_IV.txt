@@ -1,0 +1,23 @@
+Aufgabe 1:
+
+a) Df = N weil das oben steht
+b) Wf = {0,1} weil laut definition der wert 1 zurückgegeben wird wenn eine bedingung erfüllt ist und in allen anderen fällen 0 zurückgegeben wird
+
+
+Aufgabe 2:
+
+einsellig => keine endlos vielen eingaben (terminierende eingeabe)
+A(x) < A(x-1) bedeutet das A(x) immer ein wert ist für den es nicht einen anderen Wert gibt der größer ist.
+Also ist A(x) immer ein bestimmter wert
+
+
+Aufgabe 3:
+
+a) die Anzahl aller Existierenden Programme ist endlich, also ist ist die Menge aller Funktionen K auch endlich.
+b) wenn B = A dann gilt B = A
+
+
+Aufgabe 4:
+
+a) fr(i,j) =def= fi(i) o fi(j)
+b) fs(i,j) =def= fi(i) + fi(j)
